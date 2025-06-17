@@ -1,0 +1,13 @@
+
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin and checkout paths
+Disallow: /admin/
+Disallow: /checkout
+Disallow: /login
+Disallow: /cart
+
+# Sitemaps
+Sitemap: https://replaceit.in/sitemap.xml
